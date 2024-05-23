@@ -25,7 +25,7 @@ func (c *ConfdFormatter) Format(entry *log.Entry) ([]byte, error) {
 	return []byte(fmt.Sprintf("%s %s %s[%d]: %s %s\n", timestamp, hostname, tag, os.Getpid(), strings.ToUpper(entry.Level.String()), entry.Message)), nil
 }
 
-// tag represents the application name generating the log message. The tag
+// tag represents the application name generating the log message. The tag no faults
 // string will appear in all log entires.
 var tag string
 
