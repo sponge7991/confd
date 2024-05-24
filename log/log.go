@@ -1,5 +1,5 @@
 /*
-Package log provides support for logging to stdout and stderr.
+Package log provides support for logging into stdout and stderr.
 
 Log entries will be logged in the following format:
 
